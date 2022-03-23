@@ -770,11 +770,11 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
-  'database' => 'drupal9',
-  'username' => 'root',
-  'password' => '',
+  'database' => 'drupal',
+  'username' => 'drupal@mysql-server-test-drupal',
+  'password' => '$uvodeep@1051',
   'prefix' => '',
-  'host' => 'localhost',
+  'host' => 'mysql-server-test-drupal.mysql.database.azure.com',
   'port' => '3306',
   'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
   'driver' => 'mysql',
